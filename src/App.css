@@ -1,6 +1,7 @@
 .App {
-  background-image: url("../public/pexels-eberhard-grossgasteiger-844297.jpg");
+  /* background-image: url("../public/pexels-eberhard-grossgasteiger-844297.jpg"); */
+  background: linear-gradient(rgba(15, 13, 27, 0.35), rgba(15, 13, 27, 0.35)),
+    url("../public/pexels-eberhard-grossgasteiger-844297.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(0.7);
 }
