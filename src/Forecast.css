@@ -1,0 +1,6 @@
+.Forecast {
+  background-image: url("../public/waves.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}

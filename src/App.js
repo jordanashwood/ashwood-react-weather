@@ -1,5 +1,6 @@
 import "./App.css";
 import Weather from "./Weather";
+import Forecast from "./Forecast";
 
 function App() {
   return (
@@ -7,13 +8,8 @@ function App() {
       <div className="container">
         <header className="App-header">
           <Weather />
+          <Forecast />
         </header>
-        <footer className="m-3 p-4 text-center opacity-75">
-          This project was coded by Jordan Ashwood and is{" "}
-          <a href="" target="_blank" rel="noopener noreferrer">
-            open-sourced on Github.
-          </a>
-        </footer>
       </div>
     </div>
   );
