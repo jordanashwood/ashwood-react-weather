@@ -8,7 +8,7 @@ function App() {
         <header className="App-header">
           <Weather />
         </header>
-        <footer>
+        <footer className="m-3 p-4 text-center opacity-75">
           This project was coded by Jordan Ashwood and is{" "}
           <a href="" target="_blank" rel="noopener noreferrer">
             open-sourced on Github.

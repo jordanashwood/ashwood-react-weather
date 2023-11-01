@@ -4,17 +4,24 @@ import "./Weather.css";
 export default function Weather() {
   return (
     <div className="Weather">
+      {/* onSubmit={handleSubmit} */}
       <form>
-        <div className="row">
+        <div className="row navbar navbar-dark bg-light mb-5 p-3 rounded-bottom">
           <div className="col-9">
             <input
               type="search"
-              placeholder="Enter a city..."
+              placeholder="Enter a city.."
               className="form-control"
+              autoFocus="on"
+              // onChange={handleCityChange}
             />
-            <div className="col-3">
-              <input type="submit" value="Search" className="btn btn-primary" />
-            </div>
+          </div>
+          <div className="col-3">
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-primary w-100"
+            />
           </div>
         </div>
       </form>
