@@ -1,7 +1,25 @@
 .Weather {
   color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.Weather img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+}
+.Weather .unit {
+  font-size: 16px;
+  position: relative;
+  top: -32px;
+  margin-left: 5px;
 }
 .weather-data ul {
   list-style: none;
   opacity: 90%;
+  margin-left: -30px;
+}
+.Weather .temperature {
+  font-size: 64px;
+  font-weight: 700;
 }
