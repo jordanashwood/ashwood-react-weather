@@ -1,3 +1,7 @@
 .Weather {
   color: white;
 }
+.weather-data ul {
+  list-style: none;
+  opacity: 90%;
+}
