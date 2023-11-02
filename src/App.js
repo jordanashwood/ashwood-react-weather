@@ -1,6 +1,6 @@
+import React from "react";
 import "./App.css";
 import Weather from "./Weather";
-import Forecast from "./Forecast";
 
 function App() {
   return (
@@ -8,7 +8,6 @@ function App() {
       <div className="container-fluid">
         <header className="App-header">
           <Weather />
-          <Forecast />
         </header>
       </div>
     </div>
