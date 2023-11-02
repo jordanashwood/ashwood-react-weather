@@ -5,3 +5,15 @@
   background-size: cover;
   font-family: "Montserrat", sans-serif;
 }
+footer {
+  font-size: 12px;
+  background-color: white;
+  color: #333333;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,12 @@
+.WeatherForecast {
+  text-align: center;
+  background-image: url("../public/waves.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #333333;
+}
+
+.WeatherForecast-temperature-min {
+  opacity: 0.6;
+  margin-left: 5px;
+}
