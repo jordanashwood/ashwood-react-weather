@@ -2,5 +2,15 @@
   background-image: url("../public/waves.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+}
+footer {
+  font-size: 12px;
+}
+footer a {
+  opacity: 80%;
+  text-decoration: none;
+}
+footer a:hover {
+  opacity: 100%;
+  text-decoration: underline;
 }

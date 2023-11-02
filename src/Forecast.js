@@ -5,8 +5,8 @@ export default function Forecast() {
   return (
     <div className="Forecast p-1 mt-5 text-center container-fluid">
       <h4 className="p-5 mt-5">Forecast to come...</h4>
-      <footer className="m-3 p-4 opacity-75">
-        This project was coded by Jordan Ashwood and is{" "}
+      <footer className="p-5">
+        This project was coded by Jordan Ashwood and is {""}
         <a
           href="https://github.com/jordanashwood/ashwood-react-weather"
           target="_blank"
