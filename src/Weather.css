@@ -28,8 +28,3 @@
   list-style: none;
   opacity: 90%;
 }
-@media screen (min-width: 1000px) {
-  .WeatherInfo {
-    display: none;
-  }
-}
