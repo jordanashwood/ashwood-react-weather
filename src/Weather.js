@@ -62,6 +62,16 @@ export default function Weather(props) {
         </form>
         <WeatherInfo data={weatherData} />
         <WeatherForecast coordinates={weatherData.coordinates} />
+        <footer className="p-3">
+          This project was coded by Jordan Ashwood and is {""}
+          <a
+            href="https://github.com/jordanashwood/ashwood-react-weather"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on Github.
+          </a>
+        </footer>
       </div>
     );
   } else {

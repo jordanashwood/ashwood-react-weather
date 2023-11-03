@@ -1,6 +1,5 @@
 .Weather {
   color: white;
-  max-width: 1000px;
   margin: 0 auto;
 }
 .Weather img {
@@ -9,17 +8,28 @@
   width: 64px;
 }
 .Weather .unit {
-  font-size: 16px;
+  font-size: 18px;
   position: relative;
-  top: -32px;
+  top: -46px;
   margin-left: 5px;
 }
-.weather-data ul {
+.Weather .temperature {
+  font-size: 84px;
+  font-weight: 700;
+}
+.Weather form {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.WeatherInfo {
+  max-width: 1000px;
+}
+.WeatherInfo ul {
   list-style: none;
   opacity: 90%;
-  margin-left: -30px;
 }
-.Weather .temperature {
-  font-size: 64px;
-  font-weight: 700;
+@media screen (min-width: 1000px) {
+  .WeatherInfo {
+    display: none;
+  }
 }
